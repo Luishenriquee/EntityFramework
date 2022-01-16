@@ -11,7 +11,7 @@ namespace EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=(localdb)\\mssqllocaldb;database=TesteEF;Trusted_Connection=true");
+            optionsBuilder.UseSqlServer("server=(localdb)\\MSSQLLocalDB;database=TesteEF;Trusted_Connection=true");
         }
 
         public DbSet<Cliente> Clientes { get; set; }
