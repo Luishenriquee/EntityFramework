@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
+
 namespace EntityFramework.Migrations
 {
     public partial class Inicial : Migration

@@ -1,4 +1,5 @@
-﻿namespace EntityFramework
+﻿
+namespace EntityFramework
 {
     public class Cliente
     {
